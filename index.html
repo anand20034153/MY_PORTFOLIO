@@ -1,0 +1,721 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="assets/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/newcss.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+  </head>
+
+  <body oncontextmenu="return false">
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Anand S</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="uil uil-estate nav__icon"></i>Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i>About
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i>Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#qualification" class="nav__link">
+                <i class="uil uil-briefcase-alt nav__icon"></i>Qualification
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i>Projects
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i>Contact-Me
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+        <div class="nav__btns">
+          <!-- Theme change button -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- main-->
+
+    <main class="main">
+      <!--========================= Home =====================-->
+
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/anand-s-2003developer/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-linkedin-alt home__icon"></i>
+              </a>
+
+              <a
+                href="https://github.com/anand20034153"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-github-alt home__icon"></i>
+              </a>
+            </div>
+            <div class="home__img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                      130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                      97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                      0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                      165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                      129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                     -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <image
+                    class="home__blob-img"
+                    x="-79"
+                    y="-46"
+                    xlink:href="assets/img/pro.jpg"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div class="home__data">
+              <h1 class="home__title">Hi, I'm Anand S</h1>
+              <h3 class="home__subtitle">
+                Machine Learning Engineer
+              </h3>
+        	<p class="home__description">
+  A passionate <strong>Machine Learning Engineer</strong> with expertise in developing scalable machine learning models. Graduated with a <strong>B.E. in Computer Science and Engineering</strong> from <strong>PSN Engineering College</strong>, Tirunelveli. Skilled in Python, TensorFlow, and PyTorch, focusing on data preprocessing and algorithm optimization.
+		</p>
+              <a href="#contact" class="button button--flex">
+                Contact me<i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--======================= About========================-->
+
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">My introduction</span>
+
+        <div class="about__container container grid">
+          <img src="assets\img\about.jpg" alt="" class="about__img" />
+
+          <div class="about__data">
+         	<p class="about__description">
+  I am a passionate <strong>Machine Learning Engineer</strong> deeply interested in the intersection of data and technology, specializing in developing scalable machine learning models. My goal is to leverage my skills in Python, TensorFlow, and data analysis to solve real-world problems. I am always eager to learn, adapt, and contribute to innovative solutions in the tech industry.
+		</p>
+
+            <div class="about__info">
+              <div>
+                <span class="about__info-title">07+</span>
+                <span class="about__info-name">Aggregate <br />CGPA</span>
+              </div>
+
+              <div>
+                <span class="about__info-title">04+</span>
+                <span class="about__info-name"
+                  >
+                  Projects</span
+                >
+              </div>
+
+              <div>
+                <span class="about__info-title">01+</span>
+                <span class="about__info-name">Months <br />experience</span>
+              </div>
+            </div>
+
+            <div class="about__buttons">
+              <a download="" href="assets\MyCV.pdf" class="button button--flex">
+                Download CV<i class="fas fa-download button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===================== SKILLS =====================-->
+
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">My technical level</span>
+
+        <div class="skills__container container grid">
+          <div>
+            <!--==================== Skill 1 =================-->
+            <div class="skills__content skills__open">
+              <div class="skills__header">
+                <i class="fas fa-pencil-ruler skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title">Programming Languages</h1>
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+              
+
+              <div class="skills__list grid">
+           
+                
+                  <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name">Python</h3>
+                    </div>
+                    
+                  </div>
+                  <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name">R</h3>
+                    </div>
+                    
+                  </div>
+                  <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name">SQL</h3>
+                    </div>
+                    
+                  </div>            
+                
+                
+              </div>
+            </div>
+
+            <!--==================== Skill 2 =================-->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="fas fa-code skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title">IT Constructs</h1>
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Data Structures</h3>
+                  </div>
+                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Machine Learning Algorithms</h3>
+                  </div>
+                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Natural Language Processing (NLP)</h3>
+                  </div>
+                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Web Scraping</h3>
+                  </div>
+                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Data Cleaning</h3>
+                  </div>
+                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Data Visualization</h3>
+                  </div>
+                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">OOP</h3>
+                  </div>
+                  
+                </div>                
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <!--==================== Skill 3 =================-->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="fas fa-swatchbook skills__icon"></i>
+                <div>
+                  <h1 class="skills__title">Technologies</h1>
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">MySQL</h3>
+                  </div>
+                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Spyder</h3>
+                  </div>
+                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">RStudio</h3>
+                  </div>
+                  
+                </div>
+                
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Numpy</h3>
+                  </div>
+                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Pandas</h3>
+                  </div>
+                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Matplotlib</h3>
+                  </div>
+                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Seaborn</h3>
+                  </div>
+                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">scikit-learn</h3>
+                  </div>
+                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">SciPy</h3>
+                  </div>
+                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">TensorFlow</h3>
+                  </div>
+                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">PyTorch</h3>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== Qualifications ==================-->
+
+      <section
+        class="qualification__section service__section"
+        id="qualification"
+      >
+        <h2 class="section__title">Qualification</h2>
+        <span class="section__subtitle">My personal journey</span>
+
+        <div
+          class="qualification__container container grid services__container"
+        >
+          <div class="qualification__tabs">
+            <div
+              class="qualification__button button--flex qualification__active"
+              data-target="#education"
+            >
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              Education
+            </div>
+          </div>
+
+          <div class="qualification__sections">
+            <!--====== Qualification Content 1 ======-->
+            <div
+              class="qualification__content qualifiation__active services__content"
+              data-content
+              id="education"
+            >
+              <!--====== Qualification 1 ======-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">SSLC</h3>
+                  <span class="qualification__subtitle"
+                    >Boo Vijesh<br />Matric hr. Sec. School</span
+                  >
+                  <div class="qualification__calender">
+                    <i class="uil uil-calendar-alt"></i>
+                    - 2018
+                  </div>
+                  <span
+                    class="button button--flex button--small button--link services__button"
+                  >
+                    View More
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </span>
+                  <div class="services__modal">
+                    <div class="services__modal-content">
+                      <h4 class="services__modal-title">
+                        Class 10th Summary :
+                      </h4>
+                      <i class="uil uil-times services__modal-close"></i>
+                      <ul class="services__modal-services grid">
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__moda-icon"
+                          ></i>
+                          <p>
+                            Subjects studied: Maths, Science, Social Science, English
+                           ,Tamil.
+                          </p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__moda-icon"
+                          ></i>
+                          <p>Scored 76%</p>
+                        </li>
+                    
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--====== Qualification 2 ======-->
+              <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification__title">Class 12th</h3>
+                  <span class="qualification__subtitle"
+                    >Boo Vijesh<br />Matric hr. Sec. School</span
+                  >
+                  <div class="qualification__calender">
+                    <i class="uil uil-calendar-alt"></i>
+                    - 2020
+                  </div>
+                  <span
+                    class="button button--flex button--small button--link services__button"
+                  >
+                    View More
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </span>
+                  <div class="services__modal">
+                    <div class="services__modal-content">
+                      <h4 class="services__modal-title">
+                        Class 12th Summary :
+                      </h4>
+                      <i class="uil uil-times services__modal-close"></i>
+                      <ul class="services__modal-services grid">
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__moda-icon"
+                          ></i>
+                          <p>
+                            Subjects studied: Physics, Chemistry, Maths,
+                            English, Computer Science , Tamil.
+                          </p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__moda-icon"
+                          ></i>
+                          <p>Scored 65%</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--====== Qualification 3 ======-->
+<div class="qualification__data">
+  <div>
+    <h3 class="qualification__title">College</h3>
+    <span class="qualification__subtitle">PSN Engineering College, Tirunelveli</span>
+    <div class="qualification__calender">
+      <i class="uil uil-calendar-alt"></i>
+      2020 - 2024
+    </div>
+    <span class="button button--flex button--small button--link services__button">
+      View More
+      <i class="uil uil-arrow-right button__icon"></i>
+    </span>
+    <div class="services__modal">
+      <div class="services__modal-content">
+        <h4 class="services__modal-title">College Summary :</h4>
+        <i class="uil uil-times services__modal-close"></i>
+        <ul class="services__modal-services grid">
+          <li class="services__modal-service">
+            <i class="uil uil-check-circle services__modal-icon"></i>
+            <p>
+              Studied core subjects of IT, including Data Structures and Algorithms (DSA), Design and Analysis of Algorithms, Operating Systems, and Computer Architecture.
+            </p>
+          </li>
+          <li class="services__modal-service">
+            <i class="uil uil-check-circle services__modal-icon"></i>
+            <p>Scored an aggregate of 7.0 CGPA.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <span class="qualification__rounder"></span>
+  </div>
+</div>
+
+      <!--=================== Portfolio ===================-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Projects</h2>
+        <span class="section__subtitle">Most recent work</span>
+
+        <div class="portfolio__container container swiper-container">
+          <div class="swiper-wrapper">
+            <!-- ------------------------portfollio 1-------------------- -->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/portfolio1.png" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">
+                  Animal Detection in Video Using YOLOv5 and Real-time Playback
+                </h3>
+                <p class="portfolio__description">
+                  This project leverages the YOLOv5 deep learning model to detect and identify animals (dog, cat, horse, sheep, and cow) in video files. It provides real-time video playback, displaying bounding boxes and confidence labels for detected animals. Additionally, the system plays an alert sound when an animal is detected, with the option to stop detection at any point through a user interface.
+                </p>
+                <a
+                  href="https://github.com/anand20034153/animal_detector"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  GitHub Repository
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+                </div>
+            </div>
+            <!-- ------------------------portfollio 2-------------------- -->
+
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/portfolio2.png" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">
+                  Real-Time Emotion Detection Using Webcam and Tkinter
+                </h3>
+                <p class="portfolio__description">
+                  This program uses OpenCV and Keras to detect facial emotions from a live webcam feed. It employs a pre-trained convolutional neural network (CNN) model to predict emotions such as "Happy," "Sad," or "Angry." The real-time video is displayed in a resizable Tkinter window, where the frame dynamically adjusts to the window size while annotating detected emotions on faces.
+                </p>
+                <a
+                  href="https://github.com/anand20034153/face_emotion_detection"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  GitHub Repository
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+      
+              </div>
+            </div>
+
+            <!-- ------------------------portfollio 3-------------------- -->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/portfolio3.png" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Email Spam Filter</h3>
+                <p class="portfolio__description">
+                  The Email Spam Filter project uses machine learning to classify emails as spam or non-spam (ham). It employs a Naive Bayes classifier, trained on labeled email data, to make real-time predictions. The project features a user-friendly GUI for easy interaction and stores classified emails in separate folders for future reference.
+                </p>
+                <a
+                  href="https://github.com/anand20034153/Email_spam_detection"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  GitHub Repository
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+        
+              </div>
+            </div>
+            <!-- ------------------------portfollio 4-------------------- -->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/portfolio4.png" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Stock Price Prediction Using XGBoost</h3>
+                <p class="portfolio__description">
+                  This project uses machine learning techniques, specifically XGBoost, to predict stock prices based on historical data and technical indicators. It employs various features such as moving averages, RSI, MACD, and Bollinger Bands to train the model. The application provides real-time predictions for stock prices (Open, High, Low, Close) and visualizes them through interactive charts.
+                </p>
+                <a
+                  href="https://github.com/anand20034153/stock_market_analysis"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  GitHub Repository
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+
+              </div>
+            </div>
+
+            <!-- ------------------------portfollio 5-------------------- -->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/portfolio5.png" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">
+			Vehicle Speed Detection System</h3>
+                <p class="portfolio__description">
+                  This project utilizes computer vision techniques to estimate the speed of vehicles in a video. It processes the video frames to detect moving objects, calculates their speed based on their position changes between frames, and identifies vehicles exceeding a defined speed limit. If the speed limit is exceeded, images of the violating vehicles are captured and stored in a specified folder for further action.
+                </p>
+                <a
+                  href="https://github.com/anand20034153/vehicle_speed_detection"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  GitHub Repository
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- add arrows -->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+          <!-- add pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--===================== Contact Me =====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in touch</span>
+
+        <div class="contact__container container grid">
+          <div>
+            <div class="contact__information">
+              <i class="uil uil-calling contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Contact Me</h3>
+                <span class="contact__subtitle"
+                  ><a href="tel:9150109565"></a>9150109565</span
+                >
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-envelope-minus contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Email</h3>
+                <span class="contact__subtitle"
+                  >anandgak855@gmail.com</span
+                >
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-map-marker contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Location</h3>
+                <span class="contact__subtitle"
+                  >Tirunelveli, Tamil Nadu, India</span
+                >
+              </div>
+            </div>
+          </div>
+
+    <!--================== SCROLL TOP ==================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <script type="text/javascript" src="assets/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
+    <script src="assets/ptj.js"></script>
+  </body>
+</html>
